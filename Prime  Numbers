@@ -1,0 +1,22 @@
+//Prime number from start to end 
+
+
+public class Main
+{
+	public static void  main(String[] args) {
+		int start= 20;
+		int end=50;
+		for( int i= start;i<=end;i++){
+		    int fact=1;
+		    for( int j=2;j<=i;j++){
+		        if( i%j==0){
+		            fact++;
+		        }
+		    }
+		    if( fact==2){
+		        System.out.print(i+" ");
+		    }
+		}
+	}
+	
+}
